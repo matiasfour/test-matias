@@ -1,0 +1,27 @@
+.card {
+    min-width: 200px;
+    height: 200px;
+    margin: 20px;
+    background-color: rgb(230, 230, 230);
+    box-shadow: 1px 13px 49px -8px rgba(148,148,148,0.56);
+    -webkit-box-shadow: 1px 13px 49px -8px rgba(148,148,148,0.56);
+    -moz-box-shadow: 1px 13px 49px -8px rgba(148,148,148,0.56);
+    border-radius: 4px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-title {
+    text-transform: uppercase;
+}
+
+.card-message {
+    padding: 5px;
+    color: white;
+}
+
+.card-message, .card-hostname, .card-time {
+    margin-top: 10px;
+}
+
